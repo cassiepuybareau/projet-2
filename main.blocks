@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="nFW4R5pgNlrdk46Q[|@p" x="0" y="0"/><block type="device_forever" id="ZKrT4!@nXTyKB9=mu_sT" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="ho/?!n=?~L4,JQ9WZL2+"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="L(RUi+_n8T;`=G(Liq2E"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="{)H%$n4}T-YplGO_+Tae"><next><block type="device_print_message" id="fR)`2D4Kyxb9OKH$h=pD"><value name="text"><shadow type="text" id="2Z2AQau+7x)sZ^YH!SY}"><field name="TEXT">T=</field></shadow></value><next><block type="device_show_number" id="f4!}XWi1-;jdYHGOPFdP"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="D9s]ldC2Km:bAU}jnXOt"/></value><next><block type="device_print_message" id="$901Ja`_1|.AKc[zzo4G"><value name="text"><shadow type="text" id="jRq_30W/vb[8Rh?+GFbR"><field name="TEXT">degres</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_show_leds" id="8=A#G:nO%C~@r_a7DjRY" disabled="true" x="273" y="372"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="nFW4R5pgNlrdk46Q[|@p" x="0" y="0"/><block type="device_forever" id="ZKrT4!@nXTyKB9=mu_sT" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="LE~Jj3[+e;6d~?Ho9=3M"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" id="MZY|y|8!r,TwmfkIWCU]"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="kj3e.xk/I_Kx$=xRtM^k"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="{)H%$n4}T-YplGO_+Tae"><next><block type="device_print_message" id="fR)`2D4Kyxb9OKH$h=pD"><value name="text"><shadow type="text" id="2Z2AQau+7x)sZ^YH!SY}"><field name="TEXT">T=</field></shadow></value><next><block type="device_show_number" id="f4!}XWi1-;jdYHGOPFdP"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="D9s]ldC2Km:bAU}jnXOt"/></value><next><block type="device_print_message" id="$901Ja`_1|.AKc[zzo4G"><value name="text"><shadow type="text" id="jRq_30W/vb[8Rh?+GFbR"><field name="TEXT">degres</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="G76?|d4H:}iL!hXBuA4p"><field name="LEDS">`
         . . # . . 
         . # . . . 
         # # # # # 
         . # . . . 
         . . # . .
-        `</field><next><block type="device_show_leds" id="G76?|d4H:}iL!hXBuA4p" disabled="true"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="~:Pw?8Z;8C9UU!sb14OC"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></xml>
+        `</field></block></next></block></statement></block></statement></block></xml>
